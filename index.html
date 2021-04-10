@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIFO simulation</title>
+    <script src="table.js"></script>
+    <script src="FIFO.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1 class="heading">FIFO Scheduling Algorithm Simulation</h1>
+   <form name="generateTable">
+    <label id="process">No. Of Processes : <input type="number" id="rows" min="0" max="15"></label>
+    <input name="generate" id="button" type="button" value="Create Table!" onclick='createTable();'/>
+    </div>
+    <br>
+    <br>
+   </form>
+   <br>
+   <div id="que"></div>
+   <span id="getAnswer"></span>
+   <span id="clear"></span>
+   <div id="ans"></div>
+   <div id="foot"></div>
+   <hr>
+   <footer class="credits">
+    <p>Developed BY :</p>
+    <p>MEET JIGNESH MISTRY</p>
+   </footer>
+</body>
+</html>
